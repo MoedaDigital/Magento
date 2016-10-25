@@ -1,2 +1,4 @@
-# Magento
-Módulo Magento de integração Moeda Digital
+Módulo Magento
+====================
+
+Módulo de pagamento via Moeda Digital para Magento
