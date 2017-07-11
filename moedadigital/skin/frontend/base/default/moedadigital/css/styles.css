@@ -1,0 +1,63 @@
+	.text-center {
+		text-align: center;
+	}
+	.input_container {
+		position: relative;
+		padding: 0;
+		margin: 0 auto;
+	}
+    .input_container .MDicon {
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        width: 20px;
+        height: 20px;
+        opacity: 0.4;
+    }
+    .input_container .MDcard {
+        position: absolute;
+        top: 2px;
+        left: 240px;
+        width: 32px;
+        height: 28px;
+    }
+	.input_container .MDNumCartao, .input_container .MDValidade, .input_container .MDCVV, .input_container .MDName {
+		height: 30px !important;
+		margin: 0 auto;
+		font-size: 17px !important;
+		display: inline-block;
+		margin-bottom: 0;
+		vertical-align: middle;
+		background-color: #fff;
+		border: 1px solid #ccc;
+		-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+		-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+		box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+		-webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+		-moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+		-o-transition: border linear 0.2s, box-shadow linear 0.2s;
+		transition: border linear 0.2s, box-shadow linear 0.2s;
+		padding: 4px 4px 6px 35px !important;
+		margin-bottom: 10px;
+		line-height: 20px;
+		color: #333;
+		vertical-align: middle;
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		border-radius: 4px;
+	}
+	.control-group label {
+		margin-top: 5px;
+		margin-bottom: 2px;
+		font-size: 12px;
+	}
+	.control-group .controls {
+		margin-bottom: 2px;
+		margin-top: 0px;
+	}
+	.control-label {
+		font-size: 10px;
+	}
+	.controls {
+		margin-left: 0px !important;
+	}
